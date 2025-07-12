@@ -18,3 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - basic folder structuring
 - routing -> client side routing (endpoints)
 - app router
+- Image

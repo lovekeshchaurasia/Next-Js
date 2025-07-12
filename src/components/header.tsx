@@ -1,13 +1,14 @@
+import Link from 'next/link'
 import React from 'react'
 
 const NavbarPage = () => {
   return (
-    <div>
+    <div className='absolute z-10 text-white w-full'>
         <nav className="container flex items-center justify-between mx-auto h-14">
-        <h1 className="font-bold text-xl">Home</h1>
+       <Link href="/" className='font-bold text-xl'>Home</Link>
         <div className="flex gap-2">
-          <h1>Performance</h1>
-          <h1>Reliability</h1>
+          <Link href="/performance">Performance</Link> 
+          <Link href="/reliability">Reliability</Link> 
         </div>
       </nav>
     </div>
